@@ -1,0 +1,36 @@
+
+
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+
+    }
+}
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.0.1'
+
+    }
+}
+
+
+
+ext {
+    minSdkVersion = 17
+    compileSdkVersion = 30
+    targetSdkVersion = 30
+
+
+
+
+}
+
+
+
